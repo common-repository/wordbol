@@ -1,0 +1,21 @@
+{
+	"name": "knub/wordbol",
+	"type": "wordpress-plugin",
+	"description": "A stanbol plugin for Stanbol.",
+	"require": {
+		"easyrdf/easyrdf": "0.8.0"
+	},
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Stefan Bunk",
+			"email": "stefan.bunk@googlemail.com"
+		}
+	],
+	"autoload": {
+		"psr-0": {
+			"Wordbol": "src/"
+		}
+	},
+	"minimum-stability": "stable"
+}
